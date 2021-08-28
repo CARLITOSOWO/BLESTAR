@@ -1,0 +1,321 @@
+/*
+	Theme Name: Blestar
+	Author: Telaio Networks
+	Author URI:http://www.telaio.com.mx
+	Version: 4.0
+*/
+
+/**************************************SLIDER*************************************/
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+	display: block;
+}
+
+.carousel-item img{
+	width: 100%;
+}
+
+#sliderHome .carousel-indicators{
+	bottom: 20px;
+	display: block;
+	left: initial;
+	margin-right: 20px;
+}
+
+#sliderHome .carousel-indicators li{
+	background-color: transparent;
+	border: 1px solid #000000;
+	border-radius: 100%;
+	display: block;
+	margin: 6px 0;
+	height: 12px;
+	width: 12px;
+}
+
+#sliderHome .carousel-indicators .active{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	background-color: #ffffff;
+	height: 38px;
+	opacity: 0.75;
+	width: 65px;
+}
+
+.carousel-control-prev{
+	left: initial;
+	right: 0;
+	top: 44%;
+}
+
+.carousel-control-next{
+	top: calc(44% + 40px);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    height: 19px;
+    width: 25px;
+}
+
+.carousel-control-next-icon{
+	background-image: url('/mycavi/assets/images/icons/arrow_right.png');
+}
+
+.carousel-control-prev-icon{
+	background-image: url('/mycavi/assets/images/icons/arrow_left.png');
+}
+
+.backbles{
+	margin: 80px auto;
+	max-width: 808px;
+}
+
+.fh1{
+	font-size: 26px;
+	font-weight: 800;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 145px;
+}
+
+.spb-group{
+	margin-bottom: 30px;
+}
+
+/******************NOSOTROS*******************/
+.img-1010{
+	max-width: 1010px;
+}
+
+.title_1{
+	font-size: 25px;
+	font-weight: 800;
+	margin-top: 35px;
+}
+
+.p1{
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+.p-ints{
+	font-size: 14px;
+}
+
+.img-ben{
+	max-width: 187px;
+}
+
+.text-beneficio{
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.3;
+	margin: 0 auto;
+    margin-top: 30px;
+    max-width: 200px;
+}
+
+.section-gray2{
+	padding-top: 50px;
+}
+
+.img-qs{
+	max-width: 341px;
+}
+
+.content_c h2{
+	color: #3d3e93;
+	font-size: 25px;
+	font-weight: 800;
+	margin-bottom: 15px;
+}
+
+.content_c p{
+	font-size: 14px;
+}
+
+.mt{
+	margin-top: 40px;
+}
+
+.img-dist, .img-dist1{
+	max-width: 119px;
+}
+
+.line-green{
+	background-color: #85c55a;
+	display: block;
+	height: 340px;
+	margin: 0 auto;
+	width: 1px;
+}
+
+.line-green1-forms{
+	background-color: #85c55a;
+	display: block;
+	height: 40px;
+	margin: 0 auto;
+	width: 1px;
+}
+
+.line-green2-forms{
+	background-color: #85c55a;
+	display: block;
+	height: 185px;
+	margin: 0 auto;
+	width: 1px;
+}
+
+.formdoc{
+	margin-top: 50px;
+}
+
+.section-down {
+	
+}
+
+.section-down:nth-child(odd){
+	/*background-color: #f4f4f4;*/
+	padding-bottom: 100px;
+}
+
+.title-down{
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+.w-40px{
+	width: 40px;
+}
+
+.title-down h4{
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.item-down-flyer{
+	display: block;
+	margin: 15px 0;
+	width: 100%;
+}
+
+.item-down-flyer img{
+	max-width: 67px;
+}
+
+.w-20{
+	width: 20%;
+}
+
+.w-30{
+	width: 30%;
+}
+
+.w-mid{
+	
+}
+
+.w-mid h4{
+	line-height: 1;
+} 
+
+.w-mid h4 strong{
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.w-mid h4 span{
+	display: block;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.phone-email strong, .phone-email span{
+	display: block;
+}
+
+.phone-email strong{
+	font-size: 22px;
+}
+
+.phone-email span{
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.input-contact{
+	font-size: 14px;
+}
+
+.label-contact{
+	font-size: 14px;
+	font-weight: 600;
+}
+
+textarea{
+	resize: none;
+}
+
+@media(max-width: 767px){
+	.line-green, .line-green1-forms, .line-green2-forms{
+		display: none;
+	}
+
+	.img-dist{
+		margin-bottom: 15px;
+	}
+
+	.img-dist1{
+		margin-bottom: 25px;
+		margin-top: 25px;	
+	}
+
+	.formdoc{
+		margin-top: 0;
+	}
+}
+
+@media(max-width: 1220px){
+	.line-green{
+		height: 440px;
+	}
+}
+
+@media(max-width: 1010px){
+	.line-green{
+		height: 460px;
+	}
+}
+
+@media(max-width: 992px){
+	.line-green{
+		height: 370px;
+	}
+}
+
+@media(max-width: 870px){
+	.line-green{
+		height: 420px;
+	}
+}
+
+.content_section h1{
+	font-size: 25px;
+	font-weight: bold;
+	color: #719d36;
+	margin-bottom: 20px;
+}
+.content_section ul{
+	font-size: 14px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+}
+
+.content_section p{
+	font-size: 14px;
+	margin-bottom: 15px;
+}

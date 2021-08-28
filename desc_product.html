@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+		<meta http-equiv="Last-Modified" content="0">
+		<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+		<meta http-equiv="Pragma" content="no-cache">
+
+		<title>OwO</title>
+
+        <link rel="shortcut icon" href="" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link rel="stylesheet" href="https://blestar.net/mycavi/assets/css/mycavi/mycavi.css?v=96116cb8777e61">
+
+		<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-2950580-1']);
+_gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</head>
+	<body>
+		<div class="general-container">
+			<div class="sidebar_main">
+				<a href="/" class="logotipo">
+					<div>
+						<img src="https://blestar.net/mycavi/assets/images/logo_blestar.png" alt="Blestar">
+					</div>
+
+					<strong class="close_search open-sidebar-search">
+						<i class="fa fa-2x fa-times" aria-hidden="true"></i>
+					</strong>
+				</a>
+
+				<div class="content-filters">
+					<div class="form-group pointer" data-toggle="collapse" href="#calmacen" aria-expanded="true" style = "padding:0;">
+						<h4 class="title-filters text-blue">CATÁLOGOS <i class="fa fa-lg" style = "float: right;"></i> </h4>
+					</div>
+
+					<div class="form-group collapse show" id = "calmacen">
+						<div class="row row10" id = "contentPF"></div>
+					</div>
+					
+					<div id="filters-result"></div>
+				</div>
+			</div>
+
+			<div class="content_inside">
+				<div class="menu-sections">
+					<div class="btn-menumain float-left">
+						<div class="pointer open-menusections">
+							<i>
+								<div id="toggle-menu">
+									<div></div>
+									<div></div>
+									<div></div>
+								</div>
+							</i>
+						</div>
+
+						<div class="pointer open-sidebar-search">
+							<i class="fa fa-lg fa-search" aria-hidden="true"></i>
+						</div>
+					</div>
+
+					<div class="logo_resblestar float-left">
+						<a href="/" class="dimg">
+							<img src="https://blestar.net/mycavi/assets/images/favicon_blestar.png" alt="Blestar" width = "38px">
+						</a>
+					</div>
+
+					<ul class="menumain float-left">
+						<li><a href="/">HOME</a></li>
+						<li><a href="/nosotros">NOSOTROS</a></li>
+						<li><a href="/mycavi/catalogo/blestar">PRODUCTOS</a></li>
+						<li><a href="/mycavi/catalogo/outlet">OUTLET</a></li>
+						<li><a href="/mycavi/catalogo/novedades">NOVEDADES</a></li>
+						<li><a href="/descargas">DESCARGAS</a></li>
+						<li><a href="/distribuidores">DISTRIBUIDORES</a></li>
+						<li><a href="/mycavi/cuenta/catalogos-flipbooks">CATÁLOGOS</a></li>
+						<!--<li class = "smenu">
+							<a href="#">BLESTAR</a>
+							<ul class="subm" id = "smenubr">
+								<li><a href="/distribuidores">DISTRIBUIDORES</a></li>
+								<li><a href="/descargas">DESCARGAS</a></li>
+							</ul>
+						</li>-->
+						<li><a href="/contacto">CONTACTO</a></li>
+						<li><a href="https://blestarbrands.net/es/">BLESTAR BRANDS</a></li>
+					</ul>
+
+					<ul class="menu-brands float-left">
+						<li>
+							<a href = "https://www.blestarbrands.net/" id = "brandslink" target="_blank">BLESTAR BRANDS</a>
+						</li>
+						<!--<ul class="menu_languaje">
+							<li><span>IDIOMA</span></li>
+							<li><a href="">EN</a></li>
+							<li><a href="">ES</a></li>
+						</ul>-->
+					</ul>
+		
+					<div class="btn-access float-right" id = "data-access"></div>
+
+				</div>
+	<div class="container-int">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="bread">
+						<span>ALMACÉN MÉXICO</span>
+						<span>BRAND CHARGER</span>
+						<strong class = "float-right"><a href="#"  class = "goback"><i class="fa fa-long-arrow-left" aria-hidden="true"></i><span>REGRESAR</span></a></strong>
+					</div>
+				</div>
+			</div>
+
+			<div class="row detailp">
+				<div class="col-lg-6">
+					<div class="row carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+						<div class="col-md-2 npddr">
+							<ol class="carousel-indicators indicators-detail">
+						  		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"><img src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501.jpg&w=70&h=70&q=90&zc=2" alt=""></li>
+															
+																														<li data-target="#carouselExampleIndicators" data-slide-to="1"><img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-1.jpg&w=70&h=70&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres"></li>
+																																																		<li data-target="#carouselExampleIndicators" data-slide-to="2"><img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-2.jpg&w=70&h=70&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres"></li>
+																																																		<li data-target="#carouselExampleIndicators" data-slide-to="3"><img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-3.jpg&w=70&h=70&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres"></li>
+																																																		<li data-target="#carouselExampleIndicators" data-slide-to="4"><img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-4.jpg&w=70&h=70&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres"></li>
+																																																		<li data-target="#carouselExampleIndicators" data-slide-to="5"><img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-5.jpg&w=70&h=70&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres"></li>
+																																																		<li data-target="#carouselExampleIndicators" data-slide-to="6"><img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-6.jpg&w=70&h=70&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres"></li>
+																																																		<li data-target="#carouselExampleIndicators" data-slide-to="7"><img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-7.jpg&w=70&h=70&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres"></li>
+																																												
+																														<li data-target="#carouselExampleIndicators" data-slide-to="8"><img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-65-1.jpg&w=70&h=70&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres"></li>
+																																																																					<li data-target="#carouselExampleIndicators" data-slide-to="9"><img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-65-3.jpg&w=70&h=70&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres"></li>
+																																																		<li data-target="#carouselExampleIndicators" data-slide-to="10"><img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-65-4.jpg&w=70&h=70&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres"></li>
+																																																		<li data-target="#carouselExampleIndicators" data-slide-to="11"><img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-65-5.jpg&w=70&h=70&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres"></li>
+																																																		<li data-target="#carouselExampleIndicators" data-slide-to="12"><img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-65-6.jpg&w=70&h=70&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres"></li>
+																																																																
+																																			<li data-target="#carouselExampleIndicators" data-slide-to="13"><img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/areaimpresion/blestar/29-501-vector-1.jpg&w=70&h=70&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres"></li>
+																																																																																																																								</ol>
+						</div>
+
+						<div class="col-md-10">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501.jpg">
+										<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501.jpg&w=600&h=600&q=90&zc=2" alt="First slide">
+									</a>
+									<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR</a>
+									<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+								</div>
+
+																																						<div class="carousel-item">
+												<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501-10-1.jpg">
+													<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-1.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+												</a>
+
+												<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+												<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+											</div>
+																																																			<div class="carousel-item">
+												<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501-10-2.jpg">
+													<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-2.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+												</a>
+
+												<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+												<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+											</div>
+																																																			<div class="carousel-item">
+												<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501-10-3.jpg">
+													<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-3.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+												</a>
+
+												<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+												<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+											</div>
+																																																			<div class="carousel-item">
+												<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501-10-4.jpg">
+													<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-4.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+												</a>
+
+												<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+												<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+											</div>
+																																																			<div class="carousel-item">
+												<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501-10-5.jpg">
+													<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-5.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+												</a>
+
+												<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+												<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+											</div>
+																																																			<div class="carousel-item">
+												<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501-10-6.jpg">
+													<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-6.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+												</a>
+
+												<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+												<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+											</div>
+																																																			<div class="carousel-item">
+												<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501-10-7.jpg">
+													<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-7.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+												</a>
+
+												<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+												<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+											</div>
+																																																			<div class="carousel-item">
+												<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501-10-8.jpg">
+													<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-10-8.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+												</a>
+
+												<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+												<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+											</div>
+																																																																				<div class="carousel-item">
+												<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501-65-1.jpg">
+													<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-65-1.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+												</a>
+
+												<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+												<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+											</div>
+																																																																						<div class="carousel-item">
+												<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501-65-3.jpg">
+													<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-65-3.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+												</a>
+
+												<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+												<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+											</div>
+																																																			<div class="carousel-item">
+												<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501-65-4.jpg">
+													<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-65-4.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+												</a>
+
+												<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+												<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+											</div>
+																																																			<div class="carousel-item">
+												<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501-65-5.jpg">
+													<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-65-5.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+												</a>
+
+												<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+												<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+											</div>
+																																																			<div class="carousel-item">
+												<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/products/blestar/29-501-65-6.jpg">
+													<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/products/blestar/29-501-65-6.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+												</a>
+
+												<a href="https://blestar.net/mycavi/products/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+												<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+											</div>
+																																																																												
+																											<div class="carousel-item">
+											<a class="fancybox" rel="gallery1" href = "https://blestar.net/mycavi/areaimpresion/blestar/29-501-vector-1.jpg">
+												<img class="d-block w-100" src="https://blestar.net/mycavi/resources/timthumb/timthumb.php?src=https://blestar.net/mycavi/areaimpresion/blestar/29-501-vector-1.jpg&w=600&h=600&q=90&zc=2" alt="FUSION - Bocina portátil bluetooth con power bank de 6,000 mah y micrófono incorporado para llamadas manos libres">
+											</a>
+
+											<a href="https://blestar.net/mycavi/areaimpresion/blestar/29-501.jpg" target = "_blank" class = "btn btn-blue display-ib" style = "margin: 15px 10px;margin-left:0;width: 35%;">DESCARGAR </a>
+											<p class="display-ib" style = "font-size:10px;font-weight:600;width:60%;">El color de los artículos puede variar en algunos tonos del color real por la calibración y resolución de tu monitor.</p>
+										</div>
+																																																																				</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<h2 class = "code-detail-product text-blue">29-501JJJJJJJJ</h2>
+					<h1 class="text-blue name_product"><strong>FUSIONJJJJJJJJJ</strong></h1>
+					<div class="description_detail_product">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					-------Bocina portátil bluetooth con power bank de 6,000 mah y micrófono  incorporado para llamadas manos libres. ¡Comparte tu música favorita con tus amigos en la carretera y mantente cargado también!. El altavoz Bluetooth Fusion ofrece reproducción de música de alta calidad, creando una experiencia inolvidable para usted y sus amigos.</div>
+					<hr>
+					<div class="category_detail_product">BRAND CHARGER</div>
+
+											<strong class="price-product text-green ">$1,798.80 <small style = "font-size: 11px;font-weight: 600;">(PRECIO VENTA AL PÚBLICO)</small></strong>
+
+																
+											<div class="content-tblcolors">
+							<table class="table">
+								<thead>
+									<tr>
+										<th scope="col">Color</th>
+										<th scope="col">Existencias</th>
+										<th scope="col">En tránsito</th>
+										<th scope="col">Apartados</th>
+									</tr>
+								</thead>
+
+								<tbody>
+																													<tr>
+											<td align="center" data-toggle="tooltip" data-placement="right" title="NEGRO"><img src="https://blestar.net/mycavi/assets/images/colors/blestar/10.jpg" class="rounded-circle"></td>
+											<td><span>2</span></td>
+											<td><span class = 'text-red'>Nada por llegar</span></td>
+											<td><span class = 'text-red'>Sin apartados</span></td>
+										</tr>
+																													<tr>
+											<td align="center" data-toggle="tooltip" data-placement="right" title="DORADO"><img src="https://blestar.net/mycavi/assets/images/colors/blestar/60.jpg" class="rounded-circle"></td>
+											<td><span>7</span></td>
+											<td><span class = 'text-red'>Nada por llegar</span></td>
+											<td><span class = 'text-red'>Sin apartados</span></td>
+										</tr>
+																	</tbody>
+							</table>
+						</div>
+					
+											<a style = "font-size: 16px;" class = "text-blue" href="https://papionne.com/logostudio2/?u=15&p=29-501&external" target="_blank"><strong>Crear muestra virtual <i class="fa fa-external-link" aria-hidden="true"></i></strong></a>
+						<hr>
+					
+											<div class="material_s1">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="contentnbr">
+										<strong>Capacidad:</strong> <span>6000 MAH_ DATOS DE LA BASE DE DATOS </span>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+					<div class="material_s1">
+						<div class="row">
+							<div class="col-lg-7">
+								<div class="contentbr">
+									<strong>Material:</strong> <span>ALUMINIO DATOS DE LA BASE DE DATOS</span>
+								</div>
+							</div>
+
+							<div class="col-lg-5">
+								<div class="contentnbr">
+									<strong>Medidas:</strong> <span>14.6 cm / 8.1 cm /2.7 cm DATOS DE LA BASE DE DATOS</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="material_s2">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="contentbr">
+									<strong>Técnica de impresión:</strong> <span>SERIGRAFIA / TAMPOGRAFIA / GRABADO DATOS DE LA BASE DE DATOS</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="material_s2">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="contentbr">
+									<strong>Área de impresión:</strong> <span>2.5cm de largo DATOS DE LA BASE DE DATOS</span> X <span>2.5cm de ancho DATOS DE LA BASE DE DATOS</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="size_box container">
+						<div class="row">
+							<div class="col-md-2">
+								<div class="content_icon_box">
+									<img src="https://blestar.net/mycavi/assets/images/icons/box_icon.png" alt="Blestar" class = "w-100" style = "max-width: 48px;">
+								</div>
+							</div>
+
+							<div class="col-md-10">
+								<div style = "border-bottom: 1px solid #666666;">
+									<div class="row">
+										<div class="col-lg-7">
+											<div class="boxbr">
+												<div><strong>Caja Ext.(cm):</strong> <span>37.5 X 25 X 25.5 DATOS DE LA BASE DE DATOS</span></div>
+											</div>
+										</div>
+
+										<div class="col-lg-5">
+											<div class="boxnbr">
+												<div><strong>Caja Ext.(kg):</strong> <span>8.8 Kg DATOS DE LA BASE DE DATOS</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="boxbr">
+											<div><strong>Pz x caja:</strong> <span>20 DATOS DE LA BASE DE DATOS</span></div>
+										</div>
+									</div>
+
+									<div class="col-lg-8">
+										<div class="boxnbr">
+											<div><strong>Pz x caja int:</strong> <span>1 DATOS DE LA BASE DE DATOS</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row clap">
+						<div class="col-lg-4">
+							<strong>Precios expresados en MXP.</strong>
+						</div>
+
+						<div class="col-lg-3">
+							<strong>No incluyen IVA.</strong>
+						</div>
+
+						<div class="col-lg-5">
+							<strong>No incluyen envío ni impresión.</strong>
+						</div>
+					</div>
+					<hr>
+
+					<div class="row clap">
+						<div class="col-lg-12">
+							<strong>Las Técnicas y Áreas de Impresión son sugeridas, por lo que se recomienda consultar con su impresor.</strong>
+						</div>
+					</div>
+					<hr>
+					
+											<div class="row text-right">
+							
+							<!--<div class="col-lg-6">
+								<a href="" class="btn btn-blue btn-down w-100" style = "margin-top: 0;"><img src="https://blestar.net/mycavi/assets/images/icons/acrobat_png.png" alt="Blestar"><span>DESCARGAR FICHA</span></a>
+							</div>-->
+						</div>
+									</div>
+			</div>
+		</div>
+	</div>
+
+			<!-- Modal -->
+		<div class="modal fade" id="modalVariantColor" tabindex="-1" role="dialog" aria-labelledby="modalVariantColorLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modalVariantColorLabel"><strong>En que color desea agregar el Producto <span class="text-green">29-501 DATOS DE LA BASE DE DATOS</span></strong></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						  <span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+																													<div class="row content-add-bag special-add">
+									<div class="col-md-6">
+										<input type="text" class = "qty-variant input-qty-one" onkeypress="return isNumberKey(event)" placeholder="Cantidad Requerida">
+									</div>
+									<div class="col-md-6 text-right">
+										<a class="btn btn-blue btn-add-bolsa w-100 pointer" data-product = "29-501" data-variant = "10" namecolor = "NEGRO"><img src="https://blestar.net/mycavi/assets/images/icons/bag.png" alt="Blestar"><span>AGREGAR EN COLOR NEGRO</span></a>
+									</div>
+								</div>
+																							<div class="row content-add-bag special-add">
+									<div class="col-md-6">
+										<input type="text" class = "qty-variant input-qty-one" onkeypress="return isNumberKey(event)" placeholder="Cantidad Requerida">
+									</div>
+									<div class="col-md-6 text-right">
+										<a class="btn btn-blue btn-add-bolsa w-100 pointer" data-product = "29-501" data-variant = "65" namecolor = "DORADO"><img src="https://blestar.net/mycavi/assets/images/icons/bag.png" alt="Blestar"><span>AGREGAR EN COLOR DORADO</span></a>
+									</div>
+								</div>
+																		</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+						<div id="footer">
+					<div class="footer1 bg-blue1">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-4 red-npr">
+									<a href="https://www.facebook.com/blestarmexico/" target="_blank" class="redfooter bg-facebook">
+										<div>
+											<img src="https://blestar.net/mycavi/assets/images/icons/facebook_icon.png" alt="Facebook Blestar">
+											<span>FACEBOOK</span>
+										</div>
+									</a>
+								</div>
+
+								<div class="col-4 red-npdd">
+									<a href="https://www.instagram.com/blestar_promocionales/" target="_blank" class="redfooter bg-instagram">
+										<div>
+											<img src="https://blestar.net/mycavi/assets/images/icons/instagram_icon.png" alt="Instagram Blestar">
+											<span>INSTAGRAM</span>
+										</div>
+									</a>
+								</div>
+
+								<div class="col-4 red-npl">
+									<a href="https://www.youtube.com/channel/UCSfAM9dmwfhFCq6wVV7YvHA" target="_blank" class="redfooter bg-youtube">
+										<div>
+											<img src="https://blestar.net/mycavi/assets/images/icons/youtube_icon.png" alt="Youtube Blestar">
+											<span>YOUTUBE</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<br>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-lg-4 col-sm-4 mb-3">
+									<ul class="links-addc">
+										<li><strong class = "text-white">CATÁLOGOS</strong></li>
+										<li><a href="#">Blestar (Stock en México)</a></li>
+										<li><a href="#">Marcas Internacionales</a></li>
+										<li><a href="#">Brand Charger (Accesorios Electrónica)</a></li>
+										<li><a href="#">Catálogo Internacional</a></li>
+										<li><a href="#">Catálogo Europa</a></li>
+										<li><a href="#">Catálogo Hogar Europa</a></li>
+										<li><a href="#">Outlet</a></li>
+										<!--<li><a href="">Catálogo Europa</a></li>-->
+									</ul>
+								</div>
+								<div class="col-lg-4 col-sm-4 mb-3">
+									<ul class="links-addc">
+										<li><strong class = "text-white">REPRESENTACIONES EXCLUSIVAS</strong></li>
+										<li><a href="http://catalogosonline.com.mx/catalogo_Blestar/catalogo_Blestar.html" target="_blank" >BLESTAR (PROMOS DE LÍNEA)</a></li>
+										<li><a href="http://catalogosonline.com.mx/brandchargerlinea/brandchargerlinea.html" target="_blank" >BRAND CHARGER</a></li>
+										<li><a href="http://catalogosonline.com.mx/HUGOBOSS/HUGOBOSS.html" target="_blank">HUGO BOSS</a></li>
+										<li><a href="http://catalogosonline.com.mx/cacharel/CACHAREL.html" target="_blank">CACHAREL</a></li>
+										<li><a href="http://catalogosonline.com.mx/ungaro/UNGARO.html" target="_blank" >UNGARO</a></li>
+										<li><a href="http://catalogosonline.com.mx/cerruti/CERRUTI.html"  target="_blank">CERRUTI</a></li>
+										<li><a href="http://catalogosonline.com.mx/BRAND_IT/BRAND_IT.html" target="_blank">BRAND IT</a></li>
+									</ul>
+								</div>
+								<div class="col-lg-4 col-sm-4 mb-3">
+									<ul class="links-addc">
+										<li><strong class="text-white">QUIENES SOMOS</strong></li>
+										<li><a href="https://blestar.net/nosotros/">Nosotros</a></li>
+										<li><a href="https://blestar.net/aviso-de-privacidad/">Aviso de Privacidad</a></li>
+										<li><a href="https://blestar.net/mycavi/catalogo/politica-cookies">Política de Cookies</a></li>
+									</ul>
+									<ul class="links-addc mt-4">
+										<li><a href="https://blestar.net/descargas/"><strong class="text-white">DESCARGAS</strong></a></li>
+										
+									</ul>
+									<ul class="links-addc mt-4">
+										<li><strong class="text-white">QUIERO SER DISTRIBUIDOR</strong></li>
+										<li><a href="https://blestar.net/distribuidores/">Formularios y requisitos</a></li>
+									</ul>
+									
+								</div>
+								
+								
+							</div>
+							<hr class="text-white">
+								<div class="row pb-5">
+									<hr>
+									<div class="col-lg-4 col-sm-4 offset-lg-4 offset-sm-4">
+										<ul class="links-addc">
+										<li><strong class="text-white">CONTÁCTO</strong></li>
+										<li><span class="text-white" style="font-size: 12px;"><strong>Dirección</strong><br>Prolongación Negra Modelo 28<br>Col. Ind. Alce Blanco, Naucalpan<br>Edo. Mex 53370</span></li>
+									</ul>
+									</div>
+
+									<div class="col-lg-4 col-sm-4">
+										<ul class="links-addc">
+										<li><strong class="text-white"><br></strong></li>
+										<li><span class="text-white"  style="font-size: 12px;"><strong>Conmutador:</strong> 55 5357 3000</span></li>
+										<li><span class="text-white"  style="font-size: 12px;"><strong>Email:</strong> <a href="mailto:info@blestar.net"  class="enlaces-footer"> info@blestar.net</a></span></li>
+										<li><span class="text-white"  style="font-size: 12px;"><strong>Web:</strong><a href="http://www.blestar.net" class="enlaces-footer"> www.blestar.net</a></br><a href="http://www.blestarbrands.net" class="enlaces-footer" target="_blank">www.blestarbrands.net</a></li>
+										<!--<small class = "text-green">info@blestar.net</small>-->
+									</ul>
+									</div>
+								</div>
+						</div>						
+					</div>
+					
+					<div class="footer2 bg-blue2">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-lg-4 text-center">
+									<span class="text-white text-foo">&copy; 2021 TNP Trading</span>
+								</div>
+
+								<div class="col-lg-3 text-center">
+									<a href="https://telaio.com.mx?referer=blestar" target="_blank" class = "text-white text-foo">Powered by Telaio</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginTitle" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modalLoginTitle"><strong>ACCESO A DISTRIBUIDORES</strong></h5>
+						<span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+					</div>
+					<form id="loginForm">
+						<div class="modal-body">
+							<div class="form-group">
+								<label>Usuario</label>
+								<input type="text" name = "usuario" class = "form-control">
+							</div>
+
+							<div class="form-group">
+								<label>Contraseña</label>
+								<input type="password" name = "password" class = "form-control">
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+							<button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+						</div>
+
+						<div class="form-group text-right">
+							<hr>
+							<a href="https://blestar.net/distribuidores/" class = "btn btn-sm btn-success btn-ch">¿Quieres ser distribuidor?</a>
+						</div>
+						<div class="form-group text-right">
+							<a href="https://blestar.net/distribuidores/" class = "btn btn-sm btn-warning btn-ch open-forgot">¿Olvidaste tu contraseña?</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="modalBag" tabindex="-1" role="dialog" aria-labelledby="modalBagLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<h3 class="modal-title" id="modalBagLabel" style = "font-size: 18px;"><strong>Tu Bolsa</strong></h3><span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+					</div>
+
+					<div class="modal-body" id = "content-cart"></div>
+
+					<div class="modal-footer" id  ="action-cart"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-loader">
+				<div id="messages-loader">
+				<strong>Un momento por favor</strong>
+			</div>
+			<div class="spinner-border text-info" role="status" style="width: 4rem; height: 4rem;">
+	 			<span class="sr-only">Loading...</span>
+			</div>
+		</div>
+
+		<script>
+			var MAINPATH = '/mycavi/';
+			var PUBLICPATH = 'https://blestar.net/mycavi/assets/';
+			var IMGPRODUCTPATH = 'https://blestar.net/mycavi/products/';
+			var TIMTHUMB = 'https://blestar.net/mycavi/resources/timthumb/timthumb.php';
+		</script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+        <script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js"></script>
+		<script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.all.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+		<script src = "https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+					<script>
+				var family_filter = '';
+			</script>
+							<script>
+			var stock_filter=0;
+          </script>
+							<script>var colorsc = '[]';</script>
+				
+		<script src = "https://blestar.net/mycavi/assets/js/mycavi/cart.js"></script>
+		
+		
+		<script src = "https://blestar.net/mycavi/assets/js/mycavi/mycavi.js?v=76116cb87788e8"></script>
+
+		<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '6c41332a-4c79-48bd-a1fc-3ef914634dc9', f: true }); done = true; } }; })();</script>
+	</body>
+</html>
